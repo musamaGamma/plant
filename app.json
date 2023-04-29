@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mosh",
-    "slug": "mosh",
+    "name": "plant",
+    "slug": "plant",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,11 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "splashScreen": {
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      }
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +23,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mosama00.plant"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "028c340d-3270-4fe7-a04e-0a71aefff509"
+      }
     }
   }
 }
